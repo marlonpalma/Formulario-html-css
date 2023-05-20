@@ -1,0 +1,70 @@
+/*----------Selectores----------*/
+/* Selector Universal */
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor {
+  background-color: white;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  padding: 7px 20px 15px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: purple;
+}
+
+p {
+  font-size: 15px;
+}
+
+.contenedor-input {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block; /*para convertilo a un elemento de bloque*/
+  margin-bottom: 7px;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid purple;
+  border-radius: 4px;
+}
+
+input:focus{
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid purple;
+  border-radius: 4px;
+  padding-left: 7px;
+  padding-top: 7px;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 7px;
+  background-color: purple;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
